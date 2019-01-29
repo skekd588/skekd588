@@ -61,7 +61,7 @@ void Main::PostRender()
 		exe->PostRender();
 
 
-	wstring str;
+	/*wstring str;
 	RECT rect = { 0, 0, 300, 300 };
 
 	str = String::Format(L"FPS : %.0f", Time::Get()->FPS());
@@ -77,7 +77,7 @@ void Main::PostRender()
 	D3DXVECTOR2 rot;
 	Context::Get()->GetMainCamera()->RotationDegree(&rot);
 	str = String::Format(L"CameraRot : %.0f, %.0f", rot.x, rot.y);
-	DirectWrite::RenderText(str, rect, 12);
+	DirectWrite::RenderText(str, rect, 12);*/
 }
 
 void Main::ResizeScreen()
